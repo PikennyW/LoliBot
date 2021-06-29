@@ -55,7 +55,7 @@
 * [Tesseract-ocr](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20201127.exe) (Crear una función de imagen a texto)
 * [Python](https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe) (Crear lienzo)
 
-# instalación
+# Instalación
 ## 📝 Clonar este repositorio
 ```bash
 > git clone https://github.com/PikennyW/LoliBot
@@ -80,19 +80,19 @@ Edite los valores requeridos en `settings/setting.json`.
 
 ```
 
-`ownerBot`: your WhatsApp number.  
+`ownerBot`: Tu número de WhatsApp.  
 
-`prefix`: bot's prefix.  
+`prefix`: El prefix del bot.  
 
-`vhtearkey`: VHTear API token. Anda bisa mendapatkannya https://api.vhtear.com/ dengan membeli kunci API Nya dan harga 25k Perbulan.
+`vhtearkey`: Tokens de API de VHTear. Puedes conseguirla en https://api.vhtear.com/ comprando la API Key y el precio es de 25k al mes..
 
-`apikeyz`: Hujan Api token. Anda Bisa Mendapatkannya https://hujanapi.xyz silahkan daftar untuk mendapatkan apikey ,  limit 100/day.
+`apikeyz`: Fichas de Lluvia de fuego. Puedes obtenerla en https://hujanapi.xyz por favor regístrese para obtener apikey, límite 100 / día.
 
-`lolhuman`: Lolhuman token. Anda bisa Mendapatkannya Di https://lolhuman.herokuapp.com/ silahkan daftar untuk mendapatkan apikey
+`lolhuman`: Fichas de Lluvia de fuego. Puede obtenerlo https://hujanapi.xyz por favor regístrese para obtener apikey, límite 100 / día. `lolhuman`: fichas de lolhuman. A
 
-`apizeks` : Api vinz token. Anda bisa mendapatkanya di https://zeks.xyz/ silahkan daftar untuk mendapatkan apikey 
+`apizeks` : api keys vinz. Puedes obtenerla en https://zeks.xyz/ por favor regístrese para obtener apikey
 
-Untuk Mendapatkan Apikey nya , daftar akun terlebih dahulu di website tersebut
+Para obtener la Api Key, primero registre una cuenta en el sitio web
 
 ## 🔍 Menginstal dependensi
 ```bash
