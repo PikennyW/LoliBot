@@ -3,7 +3,7 @@
 
 # Piyobot
 
-> Piyobot Adalah Bot Whatsapp Pintar Dengan Fitur Yang Berguna Untuk Grup Maupun Pribadi Message ||
+>  Piyovot es un bot inteligente para Whatsapp con funciones útiles para grupos y mensajes privados ||
 > Nomor Pembuat Bot
 > wa.me/6281414046576
 
