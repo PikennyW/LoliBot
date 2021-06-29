@@ -3,7 +3,7 @@
 
 # Piyobot
 
->  Piyovot es un bot inteligente para Whatsapp con funciones útiles para grupos y mensajes privados ||
+>  Piyovot es un bot inteligente para Whatsapp con funciones útiles para grupos y mensajes privados, Traducido Al Español Por Pikenny White Para Toda Latinoamérica Y España :D ||
 > Número Del Creador
 > wa.me/6281414046576
 
@@ -46,24 +46,24 @@
 </h4>
 </div>
 
-# Requirements
+# Requerimientos
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
 * [FFmpeg](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z) (for sticker GIF command)
-* Any text editor
+* Cualquier editor de texto
 * [Magisk](https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.11-13-Q16-HDRI-x64-dll.exe) (Buat nuliskanan kiri folio kanan kiri)
 * [Tesseract-ocr](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20201127.exe) (Buat Fitur image to text)
 * [Python](https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe) (Buat canvas)
 
-# installation
-## 📝 Cloning this repo
+# instalación
+## 📝 Clonar este repositorio
 ```bash
 > git clone https://github.com/IndonesianDev/whatsapp-bot
 > cd whatsapp-bot
 ```
 
-## ✍️ Edit filenya
-Edit value yang diperlukan di `settings/setting.json`.
+## ✍️ Edit archivo
+Edite los valores requeridos en `settings/setting.json`.
 ```json
 {
     "limitCount": 10,
