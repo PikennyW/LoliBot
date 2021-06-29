@@ -58,8 +58,8 @@
 # instalación
 ## 📝 Clonar este repositorio
 ```bash
-> git clone https://github.com/IndonesianDev/whatsapp-bot
-> cd whatsapp-bot
+> git clone https://github.com/PikennyW/LoliBot
+> cd LoliBot
 ```
 
 ## ✍️ Edit archivo
