@@ -62,7 +62,7 @@
 > cd LoliBot
 ```
 
-## ✍️ Edit archivo
+## ✍️ Editar archivo
 Edite los valores requeridos en `settings/setting.json`.
 ```json
 {
