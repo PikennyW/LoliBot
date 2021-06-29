@@ -3,7 +3,7 @@
 
 # Piyobot
 
->  Piyovot es un bot inteligente para Whatsapp con funciones útiles para grupos y mensajes privados, Traducido Al Español Por Pikenny White Para Toda Latinoamérica Y España :D ||
+>  Piyovot es un bot inteligente para Whatsapp con funciones útiles para grupos y mensajes privados, Traducido Al Español Por Pikenny White Para Toda Habla Hispana ||
 > Número Del Creador
 > wa.me/6281414046576
 
