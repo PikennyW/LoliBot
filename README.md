@@ -49,7 +49,7 @@
 # Requerimientos
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z) (for sticker GIF command)
+* [FFmpeg](https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-full.7z) (Para Comandos De Sticker Gif)
 * Cualquier editor de texto
 * [Magisk](https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.11-13-Q16-HDRI-x64-dll.exe) (Escriba derecha izquierda folio derecha izquierda)
 * [Tesseract-ocr](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20201127.exe) (Crear una función de imagen a texto)
