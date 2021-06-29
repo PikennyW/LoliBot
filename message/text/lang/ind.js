@@ -2,62 +2,62 @@ const fs = require('fs-extra')
 
 
 exports.wait = () => {
-    return `Mohon tunggu sebentar~`
+    return `Por favor, espere un momento~`
 }
 
 exports.gsm = (result) => {
-    return `➸ *Model HP*: ${result.title}\n➸ *Spesifikasi*: ${result.spec}`
+    return `➸ *Modelos HP*: ${result.title}\n➸ *Especificación*: ${result.spec}`
 }
 
 exports.waitmutualan = () => {
-    return `Looking for a partner...`
+    return `Buscando un compañero...`
 }
 
 exports.joox = (result) => {
-    return `*Lagu ditemukan!*\n\n➸ *Penyanyi*: ${result[0].penyanyi}\n➸ *Judul*: ${result[0].judul}\n➸ *Album*: ${result[0].album}\n➸ *Ext*: ${result[0].ext}\n➸ *Size*: ${result[0].filesize}\n➸ *Durasi*: ${result[0].duration}\n\nMedia sedang dikirim, mohon tunggu...`
+    return `*Canción encontrada!*\n\n➸ *Cantante*: ${result[0].penyanyi}\n➸ *Título*: ${result[0].judul}\n➸ *Álbum*: ${result[0].album}\n➸ *Extensión*: ${result[0].ext}\n➸ *Tamaño*: ${result[0].filesize}\n➸ *Duración*: ${result[0].duration}\n\nSe está enviando el archivo, por favor, espere...`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran video terlalu besar!`
+    return `El tamaño del video es demasiado grande!`
 }
 
 exports.ok = () => {
-    return `Ok jing~`
+    return `Ok~`
 }
 
 exports.detectorOn = (name, formattedTitle) => {
-    return `*「 ANTI GROUP LINK 」*\n\nPerhatian untuk penghuni grup ${(name || formattedTitle)}\nGrup ini memiliki anti group link detector, apabila ada salah satu member mengirim group link di sini maka dia akan ter-kick secara otomatis.\n\nSekian terima kasih.\n- Admin ${(name || formattedTitle)}`
+    return `*「 ANTI LINK DE GRUPOS 」*\n\nAtención miembros del grupo ${(name || formattedTitle)}\nEste grupo tiene un detector de enlace anti-grupo, si un miembro envía un enlace de grupo aquí, será expulsado automáticamente por LoliBot.\n\nEso es todo, gracias.\n- Admin ${(name || formattedTitle)}`
 }
 
 exports.levelingOn = () => {
-    return `Fitur leveling berhasil *diaktifkan*!`
+    return `La función de niveles fue exitosamente *activada*!`
 }
 
 exports.levelingOff = () => {
-    return `Fitur leveling berhasil *dinonaktifkan*!`
+    return `La función de niveles fue exitosamente *desactivada*!`
 }
 
 exports.levelingOnAlready = () => {
-    return `Fitur leveling telah diaktifkan sebelumnya.`
+    return `La función de niveles fue activada previamente.`
 }
 
 exports.levelingNotOn = () => {
-    return `Fitur leveling belum diaktifkan!`
+    return `La función de niveles no ha sido activada!`
 }
 exports.detectorOff = () => {
-    return `Fitur anti-link berhasil *dinonaktifkan*!`
+    return `La función anti-link fue exitosamente *desactivada*!`
 }
 
 exports.detectorOnAlready = () => {
-    return `Fitur anti-link telah diaktifkan sebelumnya.`
+    return `La función anti-link fue activada anteriormente.`
 }
 
 exports.linkDetected = () => {
-    return `*「 ANTI GROUP LINK 」*\n\nKamu mengirim link group chat!\nMaaf tapi kami harus mengkick kamu...\nSelamat tinggal~`
+    return `*「 ANTI LINK DE GRUPOS 」*\n\nEnviaste link de un grupo!\nLo siento, pero debes irte...\nAdiós~`
 }
 
 exports.playt = (result) => {
-    return `*Lagu ditemukan!*\n\n➸ *Judul*: ${result[0].title}\n➸ *Ext*: ${result[0].ext}\n➸ *Size*: ${result[0].size}\n➸ *Durasi*: ${result[0].duration}\n\nMedia sedang dikirim, mohon tunggu...`
+    return `*Canción Encontrada!*\n\n➸ *Título*: ${result[0].title}\n➸ *Extensión*: ${result[0].ext}\n➸ *Tamaño*: ${result[0].size}\n➸ *Duración*: ${result[0].duration}\n\nEl archivo de está enviado, por favor, espere...`
 }
 
 exports.wrongFormat = () => {
@@ -70,51 +70,51 @@ exports.wrongFormatt = () => {
 }
 
 exports.emptyMess = () => {
-    return `Silakan masukkan pesan yang ingin disampaikan!`
+    return `Por favor, ingrese el mensaje que desea envíar!`
 }
 
 exports.Yt3 = () => {
-return `[❗] Terjadi kesalahan, tidak dapat meng konversi ke mp3!`
+return `[❗] Hubo un error y no se pudo convertir a Mp3!`
 }
 
 exports.Yt4 = () => {
-return `[❗] Terjadi kesalahan, mungkin error di sebabkan oleh sistem.`
+return `[❗] Ocurrió un error, quizás el error sea causado por el sistema.`
 }
 
 exports.cmdNotFound = () => {
-    return `Command tidak ditemukan!`
+    return `Comando no encontrado!`
 }
 
 exports.blocked = () => {
-    return `Bot tidak menerima panggilan. Karena kamu telah melanggar rules, maka kamu telah diblok!\n\nHarap hubungi owner: wa.me/6281294958473`
+    return `El bot no recibe llamadas. Debido a que rompiste las reglas fuiste bloqueado!\n\nPongase en contacto con el propietario: wa.me/51966653383`
 }
 
 exports.ownerOnly = () => {
-    return `Command ini khusus Owner-sama!`
+    return `Este comando es exclusivo para Pikenny!`
 }
 
 exports.doneOwner = () => {
-    return `Sudah selesai, Owner-sama~`
+    return `Listo, Pikenny~`
 }
 
 exports.groupOnly = () => {
-    return `Command ini hanya bisa digunakan di dalam grup!`
+    return `Este comando solo se puede usar en grupos!`
 }
 
 exports.adminOnly = () => {
-    return `Hanya admin grup yang bisa menggunakan command ini!`
+    return `Solo los administradores del grupo pueden usar este comando!`
 }
 
 exports.notNsfw = () => {
-    return `Command NSFW belum diaktifkan!`
+    return `Los comandos NSFW no han sido activados!`
 }
 
 exports.nsfwOn = () => {
-    return `Command NSFW berhasil *diaktifkan*!\nKetik *$nsfwmenu* untuk melihat list command.`
+    return `Comando NSFW exitosamente *activado*!\nPonga *$nsfwmenu* para ver la lista de comandos.`
 }
 
 exports.nsfwOff = () => {
-    return `Command NSFW berhasil *dinonaktifkan*!`
+    return `Comando NSFW exitosamente *desactivado*!`
 }
 
 exports.addedGroup = (chat) => {
